@@ -1,4 +1,15 @@
+
+<p align="center">
+	<a href="https://twitter.com/KulunuOS"><img src="imgs/twitter.svg" alt="Twitter"></a>
+	<a href="https://github.com/KulunuOS"><img src="imgs/github.svg" alt="GitHub"></a>
+	<a href="https://www.linkedin.com/in/kulunuos"><img src="imgs/linkedin.svg" alt="LinkedIn"></a>
+</p>
+
+
 ### Hi there 👋
+
+
+
 
 <!--
 **KulunuOS/KulunuOS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
