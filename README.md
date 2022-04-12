@@ -1,10 +1,8 @@
-
 <p align="center">
-	<a href="https://twitter.com/KulunuOS"><img src="imgs/twitter.svg" alt="Twitter"></a>
-	<a href="https://github.com/KulunuOS"><img src="imgs/github.svg" alt="GitHub"></a>
-	<a href="https://www.linkedin.com/in/kulunuos"><img src="imgs/linkedin.svg" alt="LinkedIn"></a>
+    <a href="https://twitter.com/KulunuOS"><img src="https://img.shields.io/twitter/follow/KulunuOS?style=social" height="25" alt="NPM version"/></a>
+    <a href="https://www.linkedin.com/in/kulunuos"><img src="https://img.shields.io/badge/LinkedIn-282C34?logo=linkedin&logoColor=0077B5" height="25" alt="Build status"/></a>
+    <a href="https://github.com/KulunuOS"><img src="imgs/github.svg" height="25" alt="Build status"/></a>
 </p>
-
 
 ### Hi there 👋
 
