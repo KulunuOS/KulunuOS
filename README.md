@@ -9,9 +9,7 @@
 
 <hr>
 
-<div align="center"> 
-[![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=KulunuOS&layout=wide)](https://github.com/gazf/github-readme-twitter) 
-</div>
+[![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=KulunuOS&layout=wide)](https://github.com/gazf/github-readme-twitter)]
 
 
 <!--
