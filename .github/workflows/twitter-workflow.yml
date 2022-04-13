@@ -1,0 +1,148 @@
+Steven Jenkins De Haro
+Steven Jenkins De Haro
+Posted on Oct 24, 2020 • Updated on Oct 31, 2020
+
+Show your Tweets on your GitHub Profile README
+#
+github
+#
+profile
+#
+twitter
+#
+tutorial
+GitHub recently released a feature that allows you to create a profile for your GitHub account, which is powered by a simple README.md file. As one might have guessed, people have already found ways to create creative profiles with dynamic content using APIs and GitHub Actions. In this quick tutorial, I will show you one way to dynamically display your tweets on your GitHub profile.
+
+Before We Start
+You will first need to enable the profile feature on your account by creating a new repo that matches your GitHub username. For example, my username is StevenJDH so my repo is called StevenJDH. Once done, you can quickly create a starter profile using the GitHub Profile README Generator tool to get the needed markdown as you see here:
+
+GitHub Profile README Generator
+
+Generating an RSS Feed Link
+The approach being taken today requires an RSS feed link for your tweets, which Twitter does not provide. Fortunately, the Rss.app service can provide us with one. To get this link, do the following:
+
+From the Rss.app website, sign in or sign up with your Twitter account.
+Optional: If this is a new account, you will be automatically enrolled into the 7 day trial for the Premium tier. Downgrading later to the Free tier will undo the following steps unless you opt to pay for that tier. I recommend downgrading to the Free tier now to avoid a message like [[Action required] Your RSS.app Trial has Expired - Sat Oct 31 2020](https://rss.app) replacing your tweets, and having to repeat the steps that follow.
+Select the + New Feed button on the left after logging in, and then choose the Twitter RSS Feed tile on the right.
+In the first field provided, enter the URL to your Twitter profile and click the Generate button.
+You should now see your RSS feed link associated with your Twitter account. In trial mode, the data behind this link will refresh every 30 minutes for the first week, but afterward, it will refresh once a day.
+Setting Up Your GitHub Profile README
+Now for the fun part, adding the tweets to the GitHub profile. This is made possible thanks to the Blog Post Workflow that we are adapting to make it work for Twitter.
+
+Create a folder called .github at the root of your profile repo. Inside that folder, create another folder called workflows. You should have something like this .github\workflows now.
+In the workflows folder, create a file called twitter-workflow.yml with the following contents along with your RSS feed link:
+name: Latest Twitter Tweets
+on:
+  schedule:
+    # Runs once a day because using Free tier in Rss.app
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly.
+
+jobs:
+  update-readme-with-twitter:
+    name: Update this repo's README with latest tweets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "TWITTER"
+          feed_list: "<<[[PLACE YOUR RSS FEED LINK HERE]]>>"
+          commit_message: "Updated with the latest tweets"
+          committer_username: "twitter-bot"
+          committer_email: "twitter-bot@example.com"
+Back at the root of your repo, add the following to your README.md file where you want the tweets to appear:
+### 📱 Latest Tweets
+
+<!-- TWITTER:START -->
+<!-- TWITTER:END -->
+Once everything is saved, you can manually trigger the GitHub action that will replace the above TWITTER comments with your tweets so you don't have to wait. Just go to Actions at the top of your profile repo, select Latest Twitter Tweets on the left under Workflows, and then select Run workflow on the right. Assuming enough time has passed for the Rss.app service to parse your tweets, you should see the last 5 tweets on your GitHub profile.
+Conclusion
+In theory, the Blog Post Workflow can support any RSS feed-based service, but it already has direct, out-the-box support for many popular services. It also provides tons of configuration options, which I used to adapt the output more for Twitter. Other than the Free tier service only parsing once a day, this approach works well, and it is compact. If you know of any other approaches that do not use cards, or has a better Free tier for parsing tweets, please share it in a comment.
+
+Discussion (2)
+Subscribe
+pic
+Add to the discussion
+ 
+c0der4t profile image
+Montè
+•
+May 7 '21
+
+Thanks for this, it worked like a charm 🚀
+
+
+2
+ likes
+Reply
+ 
+chrispin profile image
+Christine Pinto
+•
+Jul 23 '21
+
+It works like a charm. Thanks for sharing
+
+
+1
+ like
+Reply
+Code of Conduct • Report abuse
+Read next
+ashwinscode profile image
+Deep Learning Library From Scratch 5: Automatic Differentiation Continued
+ashwins-code - Mar 26
+
+goserverless profile image
+Serverless Local Development
+We're Serverless! - Apr 4
+
+venkatsgithub1 profile image
+Http2 setup for Spring Boot, Angular with nginx (containerized)
+ven - Mar 22
+
+lazypro profile image
+Original Sin of Microservices, Part 1
+ChunTing Wu - Mar 21
+
+
+Steven Jenkins De Haro
+Follow
+Programmer, IT Engineer, Business Owner, Traveler, Photographer, and Life-Time Uni Student who needs a vacation.
+LOCATION
+Tarragona, Spain & Chiang Mai, Thailand
+WORK
+Lead Developer at Zurich - ServiZurich BU
+JOINED
+Oct 23, 2020
+Trending on DEV Community 
+Omar Omar profile image
+How to Create a FREE Custom Domain Name for Your Lambda URL - A Step by Step Tutorial
+#serverless #awscommunitybuilder #tutorial #aws
+Ben Halpern profile image
+Share a code snippet in any programming language and describe what's going on
+#discuss #watercooler
+Nikhil profile image
+Do you actually read your bookmarked posts?
+#discuss #watercooler #writing
+name: Latest Twitter Tweets
+on:
+  schedule:
+    # Runs once a day because using Free tier in Rss.app
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly.
+
+jobs:
+  update-readme-with-twitter:
+    name: Update this repo's README with latest tweets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "TWITTER"
+          feed_list: "<<[[PLACE YOUR RSS FEED LINK HERE]]>>"
+          commit_message: "Updated with the latest tweets"
+          committer_username: "twitter-bot"
+          committer_email: "twitter-bot@example.com"
