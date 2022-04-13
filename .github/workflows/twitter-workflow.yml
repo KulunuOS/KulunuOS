@@ -14,7 +14,7 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           comment_tag_name: "TWITTER"
-          feed_list: "https://politepol.com/fd/NCDaOpCjcWdB"
+          feed_list: "http://fetchrss.com/rss/625656b51c0474038039c15262565689bf732d26122a9992.xml"
           commit_message: "Updated with the latest tweets"
           committer_username: "twitter-bot"
           committer_email: "twitter-bot@example.com"
