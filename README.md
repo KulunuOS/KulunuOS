@@ -9,9 +9,8 @@
 
 <hr>
 
-<p align="center">
-[![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=KulunuOS&layout=wide)](https://github.com/gazf/github-readme-twitter)
-</p>
+<div style="text-align: right"> [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=KulunuOS&layout=wide)](https://github.com/gazf/github-readme-twitter) </div>
+
 
 <!--
 **KulunuOS/KulunuOS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
