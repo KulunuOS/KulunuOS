@@ -1,5 +1,5 @@
 <hr>
-
+                                ## Keep In Touch
 <p align="center">
     <a href="https://www.linkedin.com/in/kulunuos"><img src="https://img.shields.io/badge/LinkedIn-282C34?logo=linkedin&logoColor=0077B5" height="25" alt="Build status"/></a>
     <a href="https://github.com/KulunuOS"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white&link=https://github.com/minoveaz" height="25" alt="Build status"/></a>
@@ -11,7 +11,7 @@
 
 [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=KulunuOS&layout=wide&show_reply=off)](https://github.com/gazf/github-readme-twitter)
 
-
+<hr>
 <!--
 **KulunuOS/KulunuOS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
