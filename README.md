@@ -1,6 +1,6 @@
-<h1 align="center"> C O N T A C T S </h1>
 
 <hr>
+<h2 align="center"> C O N T A C T S </h2>
 
 <p align="center">
     <a href="https://www.linkedin.com/in/kulunuos"><img src="https://img.shields.io/badge/LinkedIn-282C34?logo=linkedin&logoColor=0077B5" height="25" alt="Build status"/></a>
