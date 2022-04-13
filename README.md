@@ -1,5 +1,5 @@
 <hr>
-<h3 align="center"> A B O U T   M E </h3>
+<h3 align="center"> A B O U T    M E </h3>
 
 Hey Fellas! I am a doctoral researcher working on Deep learning for Robotic Perception and Grasp Manipulation. My repos are mainly on **computer vision, AI and robotic manipulation**. 
 
