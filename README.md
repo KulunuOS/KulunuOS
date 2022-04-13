@@ -9,7 +9,23 @@
 
 <hr>
 
-[![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=gazff)](https://github.com/gazf/github-readme-twitter)
+### 📱 Latest Tweets
+
+<!-- TWITTER:START -->
+- [RT @Ken_Goldberg: CoRL: 6th Conference on Robot Learning will be in Auckland, New Zealand, 14-18 Dec 2022 &lpar;where it&#39;ll be summer...](https://twitter.com/KulunuOS/status/1485933166594568198)
+- [RT @business: These are the best places to be during Covid:
+🇮🇪 Ireland
+🇪🇸 Spain
+🇳🇱 Netherlands
+🇫🇮 Finland
+🇩🇰 Denmark
+
+See where ...](https://twitter.com/KulunuOS/status/1443200765372166148)
+- [RT @AmyGDalaMD: Flu prevention recommendations from 1918 newspaper 😳😢😭 https://t.co/O79vhkKjke](https://twitter.com/KulunuOS/status/1426441544123387905)
+- [Unbelievable. https://t.co/Rb1dspIMmV](https://twitter.com/KulunuOS/status/1424890913231302660)
+- [Anyone Who got their First Vaccine abroad and Second vaccine in Sri Lanka? #lka #COVID19LK](https://twitter.com/KulunuOS/status/1423884588674260992)
+<!-- TWITTER:END -->
+
 
 <!--
 **KulunuOS/KulunuOS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
