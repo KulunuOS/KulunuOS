@@ -1,4 +1,4 @@
-##                                                      C O N T A C T S
+<h1 align="center"> C O N T A C T S </h1>
 
 <hr>
 
