@@ -9,11 +9,7 @@
 
 <hr>
 
-### 📱 Latest Tweets
-
-<!-- TWITTER:START -->
-<!-- TWITTER:END -->
-
+[![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=gazff)](https://github.com/gazf/github-readme-twitter)
 
 <!--
 **KulunuOS/KulunuOS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
