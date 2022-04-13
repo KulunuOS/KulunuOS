@@ -1,7 +1,9 @@
 <hr>
-<h2 align="center"> A B O U T   M E </h2>
+<h3 align="center"> A B O U T   M E </h3>
 
-Hey Fellas! I am a doctoral researcher on Deep learning for Robotic Perception. My work consists computer vision, AI and robotic manipulation. In 2017, I gradúated from School of Engineering of Asian Institute of Technology, Thailand with a BSc in Mechatronics Engineering. After years of industrial exposure, in 2019 I moved to Finland and achieved a MSc in Artificial Intelligence and Robotics from Faculty of information Technology, Tampere university while working as a graduate researcher. Currently pursuing my doctoral research in Collaborative Robotics group at Faculty of Natural Sciences and Engineering in Tampere iuniversity.  
+Hey Fellas! I am a doctoral researcher working on Deep learning for Robotic Perception and Grasp Manipulation. My repos are mainly on **computer vision, AI and robotic manipulation**. 
+
+In 2017, I graduated from [School of Engineering and technology of Asian Institute of Technology](https://set.ait.ac.th/) as a Mechatronics Engineer. After years of industrial exposure, in 2019 I moved to Finland and got a [MSc in Robotics and Artificial Intelligence from Faculty of Information and Technology, Tampere university](https://www.tuni.fi/en/study-with-us/robotics-and-artificial-intelligence-information-technology#expander-trigger--field-degree-study-objectives) while working as a graduate researcher. Currently pursuing my doctoral research in Collaborative Robotics group at Faculty of Natural Sciences and Engineering in [Tampere university](https://www.tuni.fi/en).  
 
 <p align="center">
     <a href="https://www.linkedin.com/in/kulunuos"><img src="https://img.shields.io/badge/LinkedIn-282C34?logo=linkedin&logoColor=0077B5" height="25" alt="Build status"/></a>
