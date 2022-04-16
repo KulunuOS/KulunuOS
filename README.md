@@ -20,6 +20,6 @@ In 2017, I graduated from School of Engineering and Technology of [Asian Institu
 
 <hr>
 
-## Recent Publications
+### Recent Publications
 
 - Ahmad, S., Samarawickrama, K., Rahtu, E., & Pieters, R. (2021, December). [Automatic Dataset Generation From CAD for Vision-Based Grasping. In 2021 20th International Conference on Advanced Robotics](https://ieeexplore.ieee.org/abstract/document/9659336) (ICAR) (pp. 715-721). IEEE. 
