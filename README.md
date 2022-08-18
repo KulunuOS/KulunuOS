@@ -1,5 +1,5 @@
 <hr>
-<h3 align="center"> H e y _ F e l l a s ! </h3>
+<h3 align="center"> H e l l o ! </h3>
 
 
 I am a Doctoral Researcher working on Deep learning for Robotic Perception and Grasp Manipulation. My repos are mainly on **Computer Vision, AI and Robotic Manipulation**. 
