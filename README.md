@@ -1,5 +1,4 @@
 <hr>
-I am a Doctoral Researcher working on Deep learning for Robotic Perception and Manipulation. My repos are mainly on **Computer Vision, AI and Robotic Manipulation**. 
 
 <p align="center">
     <a href="https://www.linkedin.com/in/kulunuos"><img src="https://img.shields.io/badge/LinkedIn-282C34?logo=linkedin&logoColor=0077B5" height="25" alt="Build status"/></a>
